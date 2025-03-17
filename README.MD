@@ -1,7 +1,7 @@
 Automated CI/CD Pipeline with Ansible and Docker
 Description: Built a fully automated CI/CD pipeline using Ansible, Terraform to configure and deploy applications in Docker containers. Integrate with Jenkins for continuous integration.
 
-Tools/Technologies: Ansible, Docker, Jenkins/GitHub Actions, Git, Python.
+Tools/Technologies: Ansible, Docker, Jenkins, Git, Python.
 
 ### 1. **Terraform**
 
