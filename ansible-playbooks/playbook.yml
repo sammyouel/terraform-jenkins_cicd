@@ -1,0 +1,12 @@
+---
+- name: Setup CI/CD environment
+  hosts: localhost
+  tasks:
+    - name: Install required packages
+      package:
+        name: "{{ item }}"
+        state: present
+      loop:
+        - docker.io
+        - git
+        - npm
